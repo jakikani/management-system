@@ -22111,13 +22111,13 @@ body.rtl_mode table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first
     transition: ease 0.1s;
     background: var(--primary-color);
     z-index: 99999;
-    margin: 25px;
-    height: calc(100vh - 50px);
+    margin: 0;
+    height: calc(100vh - 0);
     width: 260px;
     -webkit-box-flex: 0;
     -ms-flex-positive: 0;
     flex-grow: 0;
-    border-radius: 1.1rem;
+    border-radius: 0;
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
