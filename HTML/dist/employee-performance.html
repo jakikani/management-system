@@ -304,6 +304,7 @@
                                                     <th> Id</th>
                                                     <th>Name</th>
                                                     <td>Target Value</td>
+                                                    
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -317,7 +318,11 @@
                                                     </td>
 
                                                     <td>
-                                                        500
+                                                        <div class="col-auto d-flex w-sm-100">
+                                                            <button type="button" style="margin: 5px;" class="btn btn-dark btn-set-task w-sm-100" data-bs-toggle="modal" data-bs-target="#addholiday"></i>
+                                                                Set Target</button>
+                                                        </div>
+                                                        
                                                     </td>
 
                                                 </tr>
@@ -358,6 +363,35 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="modal fade" id="addholiday" tabindex="-1" aria-hidden="true">
+                
+                    <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable">
+                        
+                        <div class="modal-content">
+                            
+                            <div class="modal-header">
+                                <h5 class="modal-title  fw-bold" id="leaveaddLabel"> Set Target</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-2">
+                                    <label for="sub" class="form-label">Target Value</label>
+                                    <input type="text" class="form-control" id="sub">
+                                </div>
+                                <div class="mb-2">
+                                    <label for="sub" class="form-label">Date</label>
+                                    <input type="date" class="form-control" id="sub">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Done</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
 
                 <!-- Edit Tickit-->
                 <div class="modal fade" id="edittickit" tabindex="-1" aria-hidden="true">
