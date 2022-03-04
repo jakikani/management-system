@@ -265,14 +265,15 @@
                     </div>
                 </nav>
             </div>
-
+            
             <!-- Body: Body -->
             <div class="body d-flex py-lg-3 py-md-2">
+                
                 <div class="container-xxl">
                     <div class="row align-items-center">
                         <div class="border-0 mb-4">
                             <div class="card-header py-3 no-bg bg-transparent d-flex align-items-center px-0 justify-content-between border-bottom flex-wrap">
-                                <h3 class="fw-bold mb-0">Equipments</h3>
+                                <h3 class="fw-bold mb-0">Hardware List</h3>
                                 <div class="col-auto d-flex">
                                     <div class="col-auto d-flex w-sm-100">
                                         <button type="button" style="margin: 5px;" class="btn btn-dark btn-set-task w-sm-100" data-bs-toggle="modal" data-bs-target="#tickadd"><i class="icofont-plus-circle me-2 fs-6"></i>Add
@@ -289,31 +290,36 @@
                                         <table id="myProjectTable" class="table table-hover align-middle mb-0" style="width:100%">
                                             <thead>
                                                 <tr>
-                                                    <th> Id</th>
-                                                    <th>Name</th>
-                                                    <th>Assigned</th>
-                                                    <th>Created Date</th>
-                                                    <th>License Number</th>
+                                                    
+                                                    <th>Asset User</th>
+                                                    <th> Asset Name</th>
+                                                    <th>Asste ID</th>
+                                                    <th>Purchase Date</th>
+                                                    <th>Amount</th>
+                                                    <th>Location</th>
                                                     <th>Actions</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        1
+                                                        <img class="avatar rounded-circle" src="assets/images/xs/avatar1.jpg" alt="">
+                                                        <span class="fw-bold ms-1">Joan Dyer</span>
                                                     </td>
                                                     <td>
                                                         Laptop
                                                     </td>
                                                     <td>
-                                                        <img class="avatar rounded-circle" src="assets/images/xs/avatar1.jpg" alt="">
-                                                        <span class="fw-bold ms-1">Joan Dyer</span>
+                                                       AST-0012
                                                     </td>
                                                     <td>
                                                         12/03/2021
                                                     </td>
                                                     <td>
-                                                        123423
+                                                        $1234
+                                                    </td>
+                                                    <td>
+                                                        <a href="map.html" class="fw-bold text-secondary">map</a>
                                                     </td>
                                                     <td>
                                                         <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -419,10 +425,13 @@
                                                 <label for="deptwo" class="form-label">Creted Date</label>
                                                 <input type="date" class="form-control" id="deptwo">
                                             </div>
-                                            <div class="mb-2">
-                                                <label for="sub" class="form-label">License number</label>
-                                                <input type="text" class="form-control" id="sub">
+                                            <div>
+                                                 <label class="form-label"></label>
+                                                 <input type="number" class="form-control">
                                             </div>
+                                        
+                                               
+                                            
                                         </div>
                                     </form>
                                 </div>
