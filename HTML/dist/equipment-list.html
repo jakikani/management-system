@@ -272,26 +272,7 @@
             
             <!-- Body: Body -->
              <!-- main menu Search-->
-             <div class="order-0 col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0 ">
-                <div class="mb-3">
-                    <label class="form-label">Product Category</label>
-                    <select class="form-select" aria-label="Default select Project Category">
-                        <option selected>UI/UX Design</option>
-                        <option value="1">Website Design</option>
-                        <option value="2">App Development</option>
-                        <option value="3">Quality Assurance</option>
-                    </select>
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Product Type</label>
-                    <select class="form-select" aria-label="Default select Project Category">
-                        <option selected>UI/UX Design</option>
-                        <option value="1">Website Design</option>
-                        <option value="2">App Development</option>
-                        <option value="3">Quality Assurance</option>
-                    </select>
-                </div>
-            </div>
+             
 
             
            
@@ -332,7 +313,7 @@
                                                 <tr>
                                                     <td>
                                                         <img class="avatar rounded-circle" src="assets/images/xs/avatar1.jpg" alt="">
-                                                        <span class="fw-bold ms-1">Joan Dyer</span>
+                                                        <a class="fw-bold ms-1" href="Asset_details.html"> <span>Joan Dyer</span></a>
                                                     </td>
                                                     <td>
                                                         Laptop
@@ -361,7 +342,7 @@
                                                 <tr>
                                                     <td>
                                                         <img class="avatar rounded-circle" src="assets/images/xs/avatar2.jpg" alt="">
-                                                        <span class="fw-bold ms-1">Ryan Randall</span>
+                                                        <a class="fw-bold ms-1" href="Asset_details.html"> <span>Ryan Randall</span></a>
 
                                                     </td>
                                                     <td>
@@ -436,7 +417,7 @@
                             </div>
                             <div class="modal-body">
                                 <div class="mb-3">
-                                    <label for="sub" class="form-label">Name</label>
+                                    <label for="sub" class="form-label">Asset Name</label>
                                     <input type="text" class="form-control" id="sub">
                                 </div>
                                 <div class="deadline-form">
@@ -455,13 +436,76 @@
                                                 <label for="deptwo" class="form-label">Creted Date</label>
                                                 <input type="date" class="form-control" id="deptwo">
                                             </div>
-                                            <div>
-                                                 <label class="form-label"></label>
-                                                 <input type="number" class="form-control">
-                                            </div>
-                                        
-                                               
                                             
+                                            
+                                            <div class="deadline-form">
+                                                <form>
+                                                    <div class="row g-3 mb-3">
+                                                        <div class="col">
+                                                            <label class="form-label">Product Category</label>
+                                                            <select class="form-select" aria-label="Default select Project Category">
+                                                                <option selected>Choose Product Category</option>
+                                                                <option value="1">Cloud Infrastructure</option>
+                                                                <option value="2">Networking</option>
+                                                                <option value="3">Hardware</option>
+                                                                <option value="4">Software</option>
+                                                                <option value="5">Others</option>
+                                                            </select>
+                                                        </div>
+                                                        
+                                                        <div class="col">
+                                                            <label class="form-label">Product Type</label>
+                                                            <select class="form-select" aria-label="Default select Project Category">
+                                                                <option selected>Choose a Product</option>
+                                                                <option value="1">Computer</option>
+                                                                <option value="2">Mobile Device</option>
+                                                                <option value="3">Office Accessories</option>
+                                                                <option value="4">Server</option>
+                                                                <option value="5">Storage</option>
+                                                                <option value="6">Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row g-3 mb-3">
+                                                        <div class="col">
+                                                            <label class="form-label">Vendor</label>
+                                                            <select class="form-select" aria-label="Default select Project Category">
+                                                                <option selected>Choose Product Vendor</option>
+                                                                <option value="1">Lenova</option>
+                                                                <option value="2">Dell</option>
+                                                                <option value="3">Microsoft</option>
+                                                                <option value="4">Asus</option>
+                                                                <option value="5">Others</option>
+                                                            </select>
+                                                        </div>
+                                                        
+                                                        <div class="col">
+                                                            <label class="form-label">Product Type</label>
+                                                            <select class="form-select" aria-label="Default select Project Category">
+                                                                <option selected>Choose a Product</option>
+                                                                <option value="1">Computer</option>
+                                                                <option value="2">Mobile Device</option>
+                                                                <option value="3">Office Accessories</option>
+                                                                <option value="4">Server</option>
+                                                                <option value="5">Storage</option>
+                                                                <option value="6">Other</option>
+                                                            </select>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="row g-3 mb-3">
+                                                        <div class="col">
+                                                            <label for="exampleFormControlInput777" class="form-label">Serial Number</label>
+                                                            <input type="text" class="form-control" id="exampleFormControlInput777" placeholder="Enter Serial number">
+                                                        </div>
+                                                        <div class="col">
+                                                            <label for="exampleFormControlInput1778" class="form-label">Price</label>
+                                                            <input type="text" class="form-control" id="exampleFormControlInput1778" placeholder="Price">
+                                                        </div>    
+                                                    </div>
+                                                </form>
+                                            </div>   
                                         </div>
                                     </form>
                                 </div>
@@ -479,7 +523,6 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Done</button>
-                                <button type="submit" class="btn btn-primary">sent</button>
                             </div>
                         </div>
                     </div>
