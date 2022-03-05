@@ -257,12 +257,7 @@
 
                         <!-- main menu Search-->
                         <div class="order-0 col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0 ">
-                            <div class="input-group flex-nowrap input-group-lg">
-                                <button type="button" class="input-group-text" id="addon-wrapping"><i
-                                        class="fa fa-search"></i></button>
-                                <input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="addon-wrapping">
-                                <button type="button" class="input-group-text add-member-top" id="addon-wrappingone" data-bs-toggle="modal" data-bs-target="#addUser"><i class="fa fa-plus"></i></button>
-                            </div>
+                            
                         </div>
 
                     </div>
@@ -278,10 +273,12 @@
                                 <h3 class="fw-bold mb-0">Employee Performance</h3>
 
                                 <div class="col-auto d-flex w-sm-100">
-                                    
+                                    <div class="col-auto d-flex w-sm-100">
+                                        <input type="date"  style="margin: 5px;" class="form-control" id="datepickerded">
+                                    </div>
                                     <button type="button" style="margin: 5px;" class="btn btn-dark btn-set-task w-sm-100" data-bs-toggle="modal" data-bs-target="#addholiday"><i class="icofont-plus-circle me-2 fs-6"></i>Add
-                                        New Employee Performance</button>
-                                </div>
+                                        Employee Performance</button>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -527,7 +524,7 @@
                     </div>
                 </div>
             </div>
-
+            
             <!-- Add Holiday-->
             <div class="modal fade" id="addholiday" tabindex="-1" aria-hidden="true">
                 
@@ -536,6 +533,7 @@
                     <div class="modal-content">
                         
                         <div class="modal-header">
+                           
                             <h5 class="modal-title  fw-bold" id="leaveaddLabel"> Add New Employee Performance</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             
