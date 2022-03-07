@@ -128,8 +128,6 @@
                         </ul>
                     </li>
                 </ul>
-
-
                 <!-- Menu: menu collepce btn -->
                 <!-- <button type="button" class="btn btn-link sidebar-mini-btn text-light">
     <span class="ms-2"><i class="icofont-bubble-right"></i></span>
@@ -304,70 +302,80 @@
                         </div>
                     </div>
                     <!-- Row end  -->
-                    <div class="tab-content">
-                        <div class="tab-pane fade show active" id="list-view">
-                            <div class="row clearfix g-3">
-                                
-                                <div class="col-lg-15">
-                                    <div class="card mb-3">
-                                        <div class="card-body">
-                                            <table id="myProjectTable" class="table table-hover align-middle mb-0" style="width:100%">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Person Name</th>
+                    
 
-                                                        <th>Email</th>
-                                                        <th>Phone</th>
-                                                        <th>Emergency Contact</th>
-                                                        <th>Actions</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
+                        <div class="modal-body">
+                            <div class="card">
+                                <div class="card-header py-3 d-flex justify-content-between bg-transparent border-bottom-0">
+                                    <h6 class="mb-0 fw-bold ">Contact Add</h6>
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="row g-3 mb-3">
+                                            <div class="col">
+                                                <label for="fileimg" class="form-label">Contact Image</label>
+                                                <input type="File" class="form-control" id="fileimg">
+                                            </div>
+                                            <div class="col">
+                                                <label for="depone" class="form-label">Person Name</label>
+                                                <input type="text" class="form-control" id="depone">
+                                            </div>
 
-                                                        <td>
-                                                            <img class="avatar rounded-circle" src="assets/images/xs/avatar4.jpg" alt="">
-                                                            <span class="fw-bold ms-1">Victor Rampling</span>
-                                                        </td>
-                                                        <td>VictorRampling@gmail.com</td>
-                                                        <td>512-555-0189</td>
-                                                        <td>512-555-0189</td>
-                                                        <td>
-                                                            <div class="btn-group" role="group" aria-label="Basic outlined example">
-                                                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#expedit"><i
-                                                                        class="icofont-edit text-success"></i></button>
-                                                                <button type="button" class="btn btn-outline-secondary deleterow"><i
-                                                                        class="icofont-ui-delete text-danger"></i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-
-                                                        <td>
-                                                            <img class="avatar rounded-circle" src="assets/images/xs/avatar5.jpg" alt="">
-                                                            <span class="fw-bold ms-1">Sally Graham</span>
-                                                        </td>
-                                                        <td>SallyGraham@gmail.com</td>
-                                                        <td>303-555-0133</td>
-                                                        <td>512-555-0189</td>
-                                                        <td>
-                                                            <div class="btn-group" role="group" aria-label="Basic outlined example">
-                                                                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#expedit"><i
-                                                                        class="icofont-edit text-success"></i></button>
-                                                                <button type="button" class="btn btn-outline-secondary deleterow"><i
-                                                                        class="icofont-ui-delete text-danger"></i></button>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-
-                                                </tbody>
-                                            </table>
                                         </div>
-                                    </div>
+                                        <div class="row g-3 mb-3">
+                                            <div class="col">
+                                                <label for="deptwo" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="deptwo">
+                                            </div>
+                                            <div class="col">
+                                                <label for="deptwophone" class="form-label">Phone</label>
+                                                <input type="text" class="form-control" id="deptwophone">
+                                            </div>
+                                        </div>
+                                        <div class="row g-3 mb-3">
+                                            <div class="col">
+                                                <label class="form-label">Contact Category</label>
+                                                <select class="form-select" aria-label="Default select Project Category">
+                                                    <option selected>Choose Contact Type</option>
+                                                    <option value="1">TPH Staff</option>
+                                                    <option value="2">Bell</option>
+                                                    <option value="3">Oracle</option>
+                                                    <option value="4">Rogers</option>
+                                                    <option value="5">Others</option>
+                                                </select>
+                                            </div>
+                                            <div class="col">
+                                                <label for="deptwophone" class="form-label">Emergency Contact</label>
+                                                <input type="text" class="form-control" id="deptwophone">
+                                            </div>
+                                        </div>
+                                       
+                                    </form>
                                 </div>
                             </div>
-                            <!-- Row End -->
+                            
+                            
+                            
+                            
+                
+                            
+                            <!-- 
+                        <div class="mb-3">
+                            <label class="form-label">Status</label>
+                            <select class="form-select">
+                        <option selected>In Progress</option>
+                        <option value="1">Completed</option>
+                        <option value="2">Wating</option>
+                        <option value="3">Decline</option>
+                    </select>
                         </div>
+                        -->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Add Contact</button>
+                        </div>
+
+
                         <div class="tab-pane fade" id="grid-view">
                             <div class="row clearfix g-3">
                                 <div class="col-lg-4">
